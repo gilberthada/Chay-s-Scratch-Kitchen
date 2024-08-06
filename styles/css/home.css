@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+header{
+    
+    background-image: url("../../images/homepage/louis-hansel-U6-KvV7HlMk-unsplash.png");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color: black;
+    opacity:1;
+  
+    
+   
+   
+}
+
+
+
+
+h1 {
+    font-size: 3.75rem;
+    font-family: "Allura", sans-serif;
+    text-decoration: underline;
+    text-transform:capitalize;
+    text-align: center;
+}
+
+
+
+ img{
+     max-width:100%;
+} 
+
+
+.hero{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+}
+
+nav ul {
+    display:flex;
+}
+
+nav ul li{
+    margin-right:2.1875rem;
+    margin-left:2.1875rem;
+}
+
+
+
+img.logo{
+  
+    width:15.625rem;
+    margin-top:3.125rem;
+   
+    
+}
+
+
+#arrow{
+    height:4.1706rem;
+    margin-top:4.375rem;
+    transition: transform 0.3s ease-out;
+}
+
+/* arrrow animation */
+#arrow:hover {
+    animation: upAndDown 1s infinite;
+}
+
+@keyframes upAndDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.menu{
+    background:#1A1A1A;
+    padding-top:1.875rem;
+}
+
+
+
+
+.dish{
+    display:flex;
+    align-items:center;
+    /* border:3px solid green; */
+    justify-content: space-around;
+    padding:2.5rem 0;
+}
+
+
+.dish-detail{
+    background:#383838;
+    width:15.625rem;
+    padding:2.5rem;
+    margin-left:6.25rem;
+    text-align:center;
+}
+
+.dish-detail h2{
+    font-size:1.875rem;
+    margin-bottom:1.875rem;
+}
+
+
+
+
+.eatary{
+    background-image:url("../../images/homepage/pexels-volkan-vardar-3887985.png"); 
+    height:18.75rem;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+     
+}
+
+.menu img{
+    width:37.5rem;
+}
+
+.photo{
+    background-image:url("../../images/homepage/food.png");
+    height: 25rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* border:3px solid red; */
+        width:25rem;
+        transition: transform 0.3s ease-out;
+
+}
+
+
+/* .zoom- {
+    width: 300px;
+    height: 300px;
+    
+} */
+
+.photo:hover {
+    transform: scale(1.2);
+}
+
+
+
+@media screen and (max-width:978px){
+    .dish{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+
+    .photo{
+        margin-top:1.5rem;
+    }
+
+    .dish-detail{
+        margin-left:3rem;
+    }
+}
+
+
+

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
+.schedule h2,h1{
+    font-size: 3.75rem;
+    font-family: "Allura", sans-serif;
+    text-transform: capitalize;
+}
+
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+.schedule{
+    display:flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    height: 600px;
+} 
+
+.photo,.hours{
+    width:50%;
+    
+}
+
+
+.hours{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+
+.photo{
+    background-image: url("../../images/contact/pexels-alberta-studios-10445627.png");
+    background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.schedule ul li{
+    margin:1.25rem 0;
+}
+
+
+
+header {
+
+    background-image: url("../../images/contact/annie-spratt-oT7_v-I0hHg-unsplash.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:black;
+    opacity:1;
+    padding:3.125rem 0;
+
+
+.contact{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+input,textarea{
+    margin:1.25rem 0;
+    padding:0.625rem;
+    border-radius: 0.3125rem;
+    border:none;
+    font-size:1.25rem;
+    font-family: sans-serif;
+    
+}
+
+textarea:focus {
+    outline: none;
+}
+
+input[type="submit"]{
+    text-transform:uppercase;
+    padding:0.625rem 1.875rem ;
+    border-radius:0.625rem;
+    font-size:1.125rem;
+    background-color:var(--turmeric-lightest);
+    color:white;
+}
+
+input[type="submit"]:hover{
+    background-color: var(--turmeric );
+
+}
+
+
+input{
+    display:flex;
+}
+
+
+}
+
+
+
+.hero {
+    height: 100vh;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav ul {
+    display: flex;
+
+}
+
+
+nav ul li a {
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 2.5rem;
+}
+
+.working-period{
+    background:#1A1A1A;
+  
+}
+
+.schedule h2{
+    margin-bottom:4.375rem;
+}
+
+
+

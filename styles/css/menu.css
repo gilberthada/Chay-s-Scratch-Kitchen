@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+header{
+    background-image:url('../../images/menu/fraser-cottrell-I3KHqMW0At4-unsplash.png');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-color:black;
+    opacity:1;
+   
+    padding:3.125rem 0;
+}
+
+h1,h2 {
+    font-size: 3.75rem;
+    font-family: "Allura", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+}
+
+.container{
+    width:80%;
+    margin:0 auto;
+
+}
+
+.hero p{
+    text-align:center;
+    font-size:1.125rem;
+   
+    margin:0 0 0 8.125rem;
+    max-width:780px;
+
+  
+    
+}
+
+#logo{
+    margin-bottom:2.5rem;
+}
+
+nav ul li a{
+    text-transform: uppercase;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav ul li{
+    margin-right:2.5rem;
+}
+
+img{
+    max-width:100%;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-around;
+    text-align:center;
+    margin-bottom:3.125rem;
+}
+
+
+
+.menu h3{
+    font-size:1.5625rem;
+    margin-bottom: 1.5625rem;
+}
+
+.menu-container{
+    background:#1A1A1A;
+}
+
+.menu-container img{
+    width:18.75rem;
+   
+}
+
+
+.dish {
+    background: #383838;
+    width: 25rem;
+    padding: 1.875rem;
+}
+
+
+
+
+
+.recipe{
+    background:#1A1A1A;
+    text-align:center;
+    padding:2.5rem 0;
+    /* border:3px solid seagreen; */
+}
+
+.recipe p span{
+    background:white;
+    color:black;
+    display:inline-block;
+    padding:1.875rem 4.375rem;
+    border-radius:10px;
+    font-size:1.875rem;
+
+}
+
+
+.action{
+    background:#B5530D;
+    text-align:center;
+    padding:30px 0;
+}
+
+
+.line{
+    width:6.25rem;
+    height:0.065rem;
+    background-color:var(--turmeric);
+    display:inline-block;
+    margin:0 1.875rem;
+}
+
+h1,h2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+

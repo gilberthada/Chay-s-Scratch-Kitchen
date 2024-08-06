@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+
+header {
+    background-image: url('../../images/about/fraser-cottrell-I3KHqMW0At4-unsplash.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    opacity:1;
+    padding:3.125rem 0;
+
+}
+
+.container{
+    width:80%;
+    margin:0 auto;
+  
+   
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+header nav ul {
+    display:flex;
+  
+}
+
+
+nav ul li a {
+    text-transform: uppercase;
+}
+
+
+
+nav ul li {
+    margin-right: 2.5rem;
+}
+
+h1,h2{
+    font-size:3.75rem;
+    font-family: "Allura", cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-decoration:underline;
+    /* margin-top:50px; */
+    margin-bottom:3.125rem;
+    /* border:1px solid red; */
+    padding-top:3.125rem;
+}
+
+
+
+.photo{
+    background-image: url("../../images/about/AdobeStock_113319820.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:13.125rem;
+    /* border:3px solid coral; */
+    width:18.75rem;
+}
+
+
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:3.125rem;
+    /* border:3px solid red; */
+    justify-content: space-around;
+    padding:0.9375rem;
+
+}
+
+.profile p{
+    width:50%;
+}
+.introduction{
+    background:#000000;
+ 
+}
+
+
+
+.spices{
+    display:flex;
+    height: 25rem;
+    margin-bottom:1.875rem;
+  
+}
+
+.ingredients{
+    background:#1A1A1A;
+    /* border:3px solid gold; */
+}
+
+.ingredients h2{
+    text-align:center;
+    /* font-size:30px; */
+    
+}
+
+
+
+
+.spice-detail{
+    width: 48%;
+    background:#383838;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.spice-detail p,h3{
+    max-width:390px;
+}
+
+.shrimp-photo,
+.paprika-photo,
+.curry-photo,
+.ginger-photo{
+    width:52%
+}
+
+
+/* .spice-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.shrimp-photo {
+    background-image: url("../../images/about/shrimp-prawn-powder_1366570244.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.paprika-photo {
+    background-image: url("../../images/about/pexels-karolina-grabowska-4199095.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.curry-photo {
+    background-image: url("../../images/about/pexels-karolina-grabowska-4199144.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.ginger-photo {
+    background-image: url("../../images/about/noonbrew-ziCb4_EKmak-unsplash.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

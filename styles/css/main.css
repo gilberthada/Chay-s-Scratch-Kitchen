@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	color: var(--white);
+	font-family: sans-serif;
+	line-height: 1.6;
+}
+
+/* Colors: */
+:root {
+	--white: #FFFFFF;
+	--grey-light: #E2E2E2;
+	--grey: #9F9F9F;
+	--onyx-lightest: #383838;
+	--onyx-light: #1A1A1A;
+	--onyx: #000000;
+	--turmeric-lightest: #E09057;
+	--turmeric-light: #D97832;
+	--turmeric: #B5530D;
+	--unnamed-color-707070: #707070;
+
+	/* Font/text values */
+	--unnamed-font-family-zapfino: Zapfino;
+	--unnamed-font-family-galvji: Galvji;
+	--unnamed-font-style-normal: normal;
+	--unnamed-font-weight-normal: normal;
+	--unnamed-font-weight-bold: bold;
+	--unnamed-font-size-20: 20px;
+	--unnamed-font-size-30: 30px;
+	--unnamed-font-size-40: 40px;
+	--unnamed-font-size-50: 50px;
+	--unnamed-font-size-60: 60px;
+	--unnamed-character-spacing-0: 0px;
+	--unnamed-line-spacing-23: 23px;
+	--unnamed-line-spacing-35: 35px;
+	--unnamed-line-spacing-47: 47px;
+	--unnamed-line-spacing-71: 71px;
+	--unnamed-line-spacing-169: 169px;
+	--unnamed-line-spacing-203: 203px;
+	--unnamed-decoration-underline: underline;
+}
+
+a{
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+nav ul li a:hover {
+	border-bottom: 1px solid white;
+}
+
+
+
+
+img {
+	max-width: 100%;
+}
+
+
+
+footer {
+	background-color:var(--onyx);
+	text-align: center;
+	padding: 2.5rem 0;
+	
+}
+
+
+
+footer p{
+	margin:0.625 0;
+}
+
