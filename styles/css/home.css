@@ -154,6 +154,15 @@ img.logo{
     transform: scale(1.2);
 }
 
+.icons ul{
+    display:flex;
+    justify-content: center;
+}
+
+.icons ul li{
+    margin:0 1rem;
+}
+
 
 
 @media screen and (max-width:978px){

@@ -60,6 +60,16 @@ nav ul{
     display:flex;
 }
 
+
+.icons ul {
+    display: flex;
+    justify-content: center;
+}
+
+.icons ul li {
+    margin: 0 1rem;
+}
+
 nav ul li{
     margin-right:2.5rem;
 }

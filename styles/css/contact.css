@@ -140,5 +140,14 @@ nav ul li {
     margin-bottom:4.375rem;
 }
 
+.icons ul {
+    display: flex;
+    justify-content: center;
+}
+
+.icons ul li {
+    margin: 0 1rem;
+}
+
 
 
