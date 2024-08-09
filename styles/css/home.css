@@ -53,6 +53,9 @@ nav ul li{
 
 
 
+
+
+
 img.logo{
   
     width:15.625rem;
@@ -88,6 +91,7 @@ img.logo{
 .menu{
     background:#1A1A1A;
     padding-top:1.875rem;
+    /* border:3px solid orange; */
 }
 
 
@@ -96,7 +100,7 @@ img.logo{
 .dish{
     display:flex;
     align-items:center;
-    /* border:3px solid green; */
+    /* border:3px solid lightblue; */
     justify-content: space-around;
     padding:2.5rem 0;
 }
@@ -108,6 +112,7 @@ img.logo{
     padding:2.5rem;
     margin-left:6.25rem;
     text-align:center;
+    /* border:3px solid yellow; */
 }
 
 .dish-detail h2{
@@ -124,11 +129,12 @@ img.logo{
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
-     
+  
 }
 
 .menu img{
     width:37.5rem;
+    border:3px solid red;
 }
 
 .photo{
@@ -137,7 +143,7 @@ img.logo{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        /* border:3px solid red; */
+         /* border:3px solid violet; */
         width:25rem;
         transition: transform 0.3s ease-out;
 
@@ -165,6 +171,11 @@ img.logo{
 
 
 
+
+
+
+
+
 @media screen and (max-width:978px){
     .dish{
         display:flex;
@@ -174,12 +185,46 @@ img.logo{
 
     .photo{
         margin-top:1.5rem;
+    
     }
 
     .dish-detail{
         margin-left:3rem;
+        
     }
 }
+
+
+@media screen and (max-width:488px){
+
+    .dish-detail{
+        margin:0 auto;
+        width:auto;
+        display:block;
+    }
+
+    .photo{
+        width:auto;
+       
+    }
+
+        .photo:hover {
+            transform: scale(0.6);
+            margin-top:1rem;
+            
+        }
+
+
+        .dish{
+            display:block;
+        }
+
+}
+
+
+
+
+
 
 
 

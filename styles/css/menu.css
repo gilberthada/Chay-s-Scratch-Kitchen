@@ -1,5 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
+
+
+
+
+
+
+
+
+
+*{
+    box-sizing: border;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
 header{
     background-image:url('../../images/menu/fraser-cottrell-I3KHqMW0At4-unsplash.png');
     background-position:center;
@@ -7,7 +26,7 @@ header{
     background-repeat:no-repeat;
     background-color:black;
     opacity:1;
-   
+   /* border:3px solid red; */
     padding:3.125rem 0;
 }
 
@@ -26,6 +45,7 @@ h1,h2 {
     display:flex;
     justify-content: space-around;
     align-items: center;
+    /* border:3px solid gold; */
     
 
 
@@ -34,6 +54,7 @@ h1,h2 {
 .container{
     width:80%;
     margin:0 auto;
+    /* border:3px solid green; */
 
 }
 
@@ -83,6 +104,10 @@ img{
     justify-content: space-around;
     text-align:center;
     margin-bottom:3.125rem;
+    /* border:3px solid violet; */
+
+    
+
 }
 
 
@@ -94,6 +119,7 @@ img{
 
 .menu-container{
     background:#1A1A1A;
+    /* border:3px solid orange; */
 }
 
 .menu-container img{
@@ -105,7 +131,16 @@ img{
 .dish {
     background: #383838;
     width: 25rem;
-    padding: 1.875rem;
+    /* padding: 4rem; */
+    /* padding:1.875rem; */
+    /* border:3px solid yellow; */
+}
+
+
+
+.one{
+    /* border:3px solid teal; */
+    /* width:50%; */
 }
 
 
@@ -116,7 +151,7 @@ img{
     background:#1A1A1A;
     text-align:center;
     padding:2.5rem 0;
-    /* border:3px solid seagreen; */
+
 }
 
 .recipe p span{
@@ -150,6 +185,168 @@ h1,h2{
     align-items: center;
     justify-content: center;
 }
+
+
+@media screen and (max-width:1116px){
+    .menu{
+        gap:1rem;
+    }
+
+    .container{
+        /* width:100%; */
+    }
+
+    .hero p{
+        margin-left:3.5rem;
+    }
+}
+
+
+@media screen and (max-width:999px) {
+    .dish{
+        /* width:20rem; */
+        padding:1rem;
+        width:70%;
+        margin:0 auto;
+        /* width:auto; */
+
+
+    }
+
+    .dish p{
+        /* font-size:0.5rem; */
+    }
+
+    .menu{
+        display:flex;
+        flex-direction:column;
+        /* justify-content: center; */
+        
+        align-items:center;
+    }
+
+    .one{
+        width:100%;
+    }
+
+    
+    
+}
+
+
+@media screen and (max-width:817px){
+    h2{
+        font-size:3.4375rem;
+    }
+}
+
+
+
+@media screen and (max-width:790px){
+    .logo {
+            width: 6.25rem;
+            height: 6.25rem;
+        }
+}
+
+
+
+
+@media screen and (max-width:514) {
+    .dish {
+        /* width:20rem; */
+        padding: 1rem;
+        /* width: 70%; */
+        margin: 0 auto;
+        width:auto;
+
+
+    }
+
+}
+
+
+
+/* NAVBAR */
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+
+
+.navbar-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-links li a {
+    display: block;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 9rem;
+    right: 6rem;
+    display: none;
+    /* display:none insted of display:flex; on big screen*/
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid white; */
+    border-radius: 5px;
+
+}
+
+.toggle-button .bar {
+    height: 4px;
+    margin: 5px 0;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+@media (max-width:790px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-links li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+
+
 
 
 
